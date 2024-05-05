@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np 
 
-xlsx_path = 'datasource'
+xlsx_path = 'datasource/activites.xlsx'
 db_path = 'tache2/db_full.csv'
 # Lecture de la base de données CSV dans un DataFrame pandas
 base = pd.read_csv(db_path, sep=',')
